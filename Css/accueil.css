@@ -1,0 +1,262 @@
+@font-face {font-family: "TL";  src: url('../Media/Police/TL.ttf');}
+@font-face {font-family: "Snow";  src: url('../Media/Police/Snow.ttf');}
+@font-face {font-family: "HH";  src: url('../Media/Police/HH.ttf');}
+	
+	
+
+body 
+{
+	background: url(../Media/Image/background1.jpg)
+	fixed center top no-repeat;
+	background-size: cover;
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+#title
+{
+	text-align:center;
+	padding-bottom:20px;
+	opacity:0.8;
+}
+
+
+
+
+
+
+img 
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span.nav
+{
+	display:inline-block;
+	background-color:black;
+	
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 10px;
+	height:10%;
+	box-shadow: 6px 6px 6px #000;	
+	border: 1px solid #272d4b;
+}
+
+
+a.myclass
+{
+	font-size: 2em;
+	color:silver;
+	font-family: "TL";
+	text-decoration: none;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#corps
+{
+	display:inline-block;
+
+	height:auto;
+	width:65%;
+	background-size:cover;
+	padding: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 12%;
+	margin-top: 20px;
+	
+
+	opacity:0.9;
+	border-radius:10px;
+	box-shadow: 6px 6px 6px #000;
+	color: silver;
+	background-color: black;
+
+
+	font-size: 3em;
+	font-size: large;
+	text-align : justify;
+
+	font-weight : bold;
+	font-family: "HH";
+	border: 1px solid #272d4b;
+
+}
+
+
+h1
+{
+	font-family: "Snow";
+	font-size: 3em;
+	text-align: center;
+	color: #8A0808;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ambiance
+{
+	display: inline-block;
+	background-color: black;
+	opacity: 0.8;
+	border-bottom-right-radius:10px;
+	border: 1px solid #272d4b;
+	padding: 10px;
+	
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#info
+{
+	text-align: center;
+}
+
+
+
+div#F11 {
+	display: inline-block;
+	border: 1px solid #272d4b;
+	font-family: "Snow";
+	color: white;
+	padding-right: 10%;
+	padding-left:10%;
+	
+	text-transform: uppercase;
+	background-color: black;
+	opacity: 0.8;
+	text-align: center;
+	position: center;
+	border-radius: 25px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div#basdepage
+{
+	height: 20px;
+}
