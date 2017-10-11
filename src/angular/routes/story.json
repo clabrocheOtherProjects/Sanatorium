@@ -1,0 +1,5 @@
+{
+  "url": "/story",
+  "templateUrl": "src/story/story.html",
+  "controller": "StoryController"
+}

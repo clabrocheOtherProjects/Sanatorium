@@ -1,0 +1,19 @@
+<div id="navbar">
+  <div id="music" ng-click="music()">
+    <i class="fa" aria-hidden="true" ng-class="{'fa-volume-up': audioPlaying, 'fa-volume-off': !audioPlaying}"></i>
+  </div>
+  
+  <a ui-sref="home"><img src="../resources/img/bannerRedTrueLies.png" alt=""></a>
+  <nav>
+    <span class="nav">
+      <a ui-sref="home" class="myclass"> .Accueil. </a>
+      <a ui-sref="story" class="myclass" ng-if="getCurrentPage() === 'prologue'"> .Commencer l'histoire. </a>
+      <a ui-sref="story" class="myclass" ng-if="getCurrentPage() !== 'prologue'"> .Continuer l'histoire. </a>
+      <a ui-sref="contact" class="myclass"> .Contact. </a>
+    </span>
+  </nav>
+
+  <div id="info">
+    <div id="F11">Appuyer sur F11 pour basculer en plein écran</div>
+  </div>
+</header>

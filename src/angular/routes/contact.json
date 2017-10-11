@@ -1,0 +1,5 @@
+{
+  "url": "/contact",
+  "templateUrl": "src/contact/contact.html",
+  "controller": "ContactController"
+}
