@@ -20,6 +20,6 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "browserify": "^14.4.0",
-    "localStorage": "^1.0.3",
+    "localStorage": "^1.0.3"
   }
 }

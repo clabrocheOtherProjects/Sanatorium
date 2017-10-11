@@ -129,7 +129,7 @@ const StoryService = require('./story/StoryService');
 const ConfigService = require('./ConfigService');
 
 angular
-  .module("app", ["ui.router", "ui.router.stateHelper"])
+  .module("app", ["ui.router"])
   .controller("HomeController", HomeController)
   .controller("NavbarController", NavbarController)
   .controller("StoryController", StoryController)
