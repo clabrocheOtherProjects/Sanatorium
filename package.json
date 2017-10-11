@@ -1,0 +1,25 @@
+{
+  "name": "sanatorium",
+  "version": "1.0.0",
+  "description": "The site where you're the hero",
+  "main": "index.js",
+  "scripts": {
+    "browserify": "browserify src/app.js > src/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clabrocheOtherProjects/Sanatorium.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clabrocheOtherProjects/Sanatorium/issues"
+  },
+  "homepage": "https://github.com/clabrocheOtherProjects/Sanatorium#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "browserify": "^14.4.0",
+    "localStorage": "^1.0.3"
+  }
+}

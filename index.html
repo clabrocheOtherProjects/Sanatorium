@@ -1,91 +1,22 @@
 ﻿<!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>Sanatorium</title>
-		<link href="Css/accueil.css" rel="stylesheet"/>
-		<link href="Css/smallindex.css" rel="stylesheet" media= "screen and (max-width:640px)" type="text/css"/>
-		<meta name="viewport" content="device-width, initial-scale=1">
-		<link rel="icon" href="./Media/Image/favicon.ico" />
-	</head>
-	
 
+<head>
+  <meta charset="utf-8">
+  <title>Sanatorium</title>
+  <link href="./scss/index.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <meta name="viewport" content="device-width, initial-scale=1">
+  <link rel="icon" href="./resources/img/favicon.ico" />
+</head>
 
+<body ng-app="app">
+  <div ng-include="'views/navbar.html'" ng-controller="NavbarController"></div>
+  <div ui-view></div>
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="src/bundle.js"></script>
+</body>
 
-
-	<body>
-		<header>
-			<div id ="ambiance">
-				<A HREF="#" class="myclass" onClick="window.open('Media/Son/theme.mp3','Ambiance','width=100, height=100')">Activer l 'ambiance</A>
-			</div>
-			
-			
-		
-<!--gerer l'image de la banniere-->
-			<div id="title">
-				<a href="index.html"> <img id="banner" src="Media/Image/bannerRedTrueLies.png" alt="bannière du site"> </a> 
-				<nav>
-					<span class="nav">
-						<a href="index.html" class="myclass">.Accueil. </a>
-				
-						<a href="Histoire/prologue.html" class="myclass">.Commencer l'histoire. </a>
-				
-						<a href = "Contact/contact.html" class="myclass">.Contact. </a>
-					</span>
-				</nav>
-			</div>
-
-
-
-		
-
-			<div id = "info">
-				<div id="F11">Appuyer sur F11 pour basculer en plein écran</div>
-			</div>
-		</header>
-
-
-
-
-
-		<div id="corps">
-			<h1>
-				Bienvenue
-			</h1>
-
-
-
-			<p class = "narration">
-				Bienvenue sur le site, si c'est la première fois que vous vous rendez sur ce site, lisez attentivement ce qui suit.
-				<br>Sinon vous pouvez commencer l'histoire en cliquant sur "Commencer l'histoire" en dessous de la banière.
-				<br>
-				<br>
-				<br>Vous vous appretez à lire une histoire reprenant le principe du célébre "Le livre dont vous êtes le heros".
-				<br> Vous incarnerais un personnage qui au fil des pages devra choisir ses actions qui influenceront sont destin.
-				<br>
-			</p>
-
-			<h1>
-				Trucs et astuces
-			</h1>
-
-			<p class="narration">
-				- Vous pouvez à tous moments sauvegarder votre avancée en enregistrant la page où vous êtes dans vos favoris ou en enregistrant le lien sur votre ordinateur.
-				<br>
-				<br>- Pour desactiver l'ambiance, il suffit de fermer la fenêtre qui c'est ouverte lorsque vous avez appuyé sur "Activer l'ambiance".
-				<br>
-				<br>- Vous pouvez consulter le cheminement de l'histoire dans la rubrique "Contact".
-			</div>
-
-				
-			
-		</div>
-
-		
-		
-		<div id="basdepage">
-
-		</div>
-		
-	</body>
 </html>

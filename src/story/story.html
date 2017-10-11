@@ -1,0 +1,9 @@
+<div id="corps">
+    <ng-include src="story.template"></ng-include>
+
+    
+    <button ng-repeat="choice in story.choices" ng-click="changePage(choice.page)" class="choix">
+        {{choice.description}}
+    </button>
+
+</div>
