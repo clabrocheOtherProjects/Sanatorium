@@ -71,12 +71,12 @@ function ConfigService () {
 module.exports = ConfigService;
 },{"localStorage":1}],3:[function(require,module,exports){
 function NavbarController ($scope, ConfigService, $interval) {
-  // const audio = new Audio('https://raw.githubusercontent.com/clabrocheOtherProjects/Sanatorium/master/resources/musics/theme.mp3');
+  const audio = new Audio('https://raw.githubusercontent.com/clabrocheOtherProjects/Sanatorium/master/resources/musics/theme.mp3');
   $scope.getCurrentPage = _ => ConfigService.get('currentStoryPage');
   $scope.music = _ => {
-    // if (audio.paused) audio.play();
-    // else audio.pause();
-    // $scope.audioPlaying = !audio.paused;
+    if (audio.paused) audio.play();
+    else audio.pause();
+    $scope.audioPlaying = !audio.paused;
   };
 }
 module.exports = NavbarController;
@@ -152,7 +152,6 @@ function ContactController($scope, $window, ConfigService) {
 module.exports = ContactController;
 },{}],11:[function(require,module,exports){
 function HomeController($scope) {
-    $scope.home = 'dezdjzekjl';
 }
 
 module.exports = HomeController
